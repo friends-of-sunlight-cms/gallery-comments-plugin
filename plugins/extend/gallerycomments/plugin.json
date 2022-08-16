@@ -3,7 +3,9 @@
     "name": "Gallery Comments",
     "description": "Adds comments to galleries",
     "version": "1.0.0",
-    "api": "^8.0",
+    "environment": {
+        "system": "^8.0"
+    },
     "url": "https://jdanek.eu",
     "class": "GalleryCommentsPlugin",
     "events": [
