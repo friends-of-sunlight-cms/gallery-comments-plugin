@@ -6,7 +6,7 @@
     "environment": {
         "system": "^8.0"
     },
-    "url": "https://jdanek.eu",
+    "url": "https://github.com/friends-of-sunlight-cms/",
     "class": "GalleryCommentsPlugin",
     "events": [
         {"event": "page.gallery.after", "method": "onCommentsShow"},
