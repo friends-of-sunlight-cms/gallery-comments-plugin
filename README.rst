@@ -13,4 +13,12 @@ Requirements
 Installation
 ************
 
-#. Copy the folder ``plugin`` and its contents to the root directory or through system administration ``Administration > Plugins > Upload new plugins``
+::
+
+    Copy the folder 'plugins' and its contents to the root directory
+
+or
+
+::
+
+    Installation via administration: 'Administration > Plugins > Upload new plugins'
