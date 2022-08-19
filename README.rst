@@ -8,7 +8,6 @@ Adds comments to galleries
 Requirements
 ************
 
-- PHP 7.1+
 - SunLight CMS 8
 
 Installation
