@@ -16,8 +16,6 @@ class GalleryCommentsPlugin extends ExtendPlugin
 
     /**
      * Callback to view the comment
-     *
-     * @param array $args
      */
     public function onCommentsShow(array $args): void
     {
@@ -38,8 +36,6 @@ class GalleryCommentsPlugin extends ExtendPlugin
 
     /**
      * Callback for comment validation
-     *
-     * @param array $args
      */
     public function onCommentsValidate(array $args): void
     {
@@ -51,8 +47,6 @@ class GalleryCommentsPlugin extends ExtendPlugin
 
     /**
      * Callback for comment editing
-     *
-     * @param array $args
      */
     public function onCommentsLink(array $args): void
     {
@@ -63,7 +57,6 @@ class GalleryCommentsPlugin extends ExtendPlugin
 
     /**
      * Callback for backlink comment editing
-     * @param array $args
      */
     public function onCommentsEditBacklink(array $args): void
     {
@@ -74,8 +67,6 @@ class GalleryCommentsPlugin extends ExtendPlugin
 
     /**
      * Callback to delete a comment when deleting a gallery
-     *
-     * @param array $args
      */
     public function onCommentsClean(array $args): void
     {
