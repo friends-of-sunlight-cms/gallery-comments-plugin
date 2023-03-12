@@ -21,7 +21,7 @@ class GalleryCommentsPlugin extends ExtendPlugin
      */
     public function onCommentsShow(array $args): void
     {
-        $args['output'] .= PostService::render(
+        $args['output'] .= PostService::renderList(
             PostService::RENDER_PLUGIN_POSTS,
             $args['page']['id'],
             [
