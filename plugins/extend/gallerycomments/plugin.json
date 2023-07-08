@@ -2,7 +2,7 @@
     "$schema": "../../../system/schema/extend.json",
     "name": "Gallery Comments",
     "description": "Adds comments to galleries",
-    "version": "0.9.1",
+    "version": "0.9.2",
     "environment": {
         "system": "^8.0"
     },
